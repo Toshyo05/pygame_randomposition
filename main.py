@@ -12,7 +12,7 @@ bgColor = (50, 50, 50)
 
 x_af, y_af = (0, 0)
 x_sto, y_sto = (0, 300)
-player_img = pygame.image.load("g:\\programation\\python\\python-tests\\pygame_tests\\player.png")
+player_img = pygame.image.load("player.png")
 player_img = pygame.transform.scale(player_img, (300, 200))
 
 def random_player_pos_x():
